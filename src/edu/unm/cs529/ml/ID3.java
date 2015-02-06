@@ -30,9 +30,9 @@ public class ID3 {
 		int confidence=0;
 		try {
 //			System.out.println("Enter training file name : ");
-			trainingFile = "training.txt";//dis.readLine();
+			trainingFile = "resources/training.txt";//dis.readLine();
 //			System.out.println("Enter validation file name : ");
-			validationFile = "validation.txt";//dis.readLine();
+			validationFile = "resources/validation.txt";//dis.readLine();
 			System.out.println("Select the confidence for chi square statistics : \n1)0%\n2)95%\n3)99%\n");
 			confidence = Integer.parseInt(dis.readLine());
 			System.out.println("Select the evaluation criteria : \n1)Information gain(entropy impurity)"
